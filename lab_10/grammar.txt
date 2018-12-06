@@ -1,0 +1,21 @@
+# Grammar
+S -> S Punct
+S -> NP VP
+NP -> NP PP | Det NP | Adj NP
+NP -> Pronoun | Pronoun Pronoun | Noun | Noun Cconj Noun
+VP -> Aux VP | Adv VP
+VP -> Verb NP | Verb SBAR | Verb PP | Verb PP PP
+PP -> Prep NP
+SBAR -> Sconj S
+# Lexicon
+Noun -> 'decade' | 'experience' | 'warming' | 'change' | 'pattern' | 'seasons' | 'part' | 'scheme' | 'money' | 'sponsorship' | 'advertising'
+Verb -> 'worked' | 'spoke' | 'caused' | 'wonder' | 'played' | 'makes'
+Adj -> 'Global' | 'rainy'
+Aux -> 'has'
+Adv -> 'also'
+Sconj -> 'whether'
+Cconj -> 'and'
+Pronoun -> 'BBC' | 'He' | 'She' | 'CNN' | 'Style' | 'I' | 'Davis' | 'Cup'
+Det -> 'the' | 'a' | 'The'
+Prep -> 'for' | 'to' | 'about' | 'in' | 'of' | 'through'
+Punct -> '.'
